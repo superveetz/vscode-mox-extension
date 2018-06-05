@@ -1,0 +1,47 @@
+
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>private-method.declaration.type.mox</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>private-method.declaration.name.mox</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>private-method.declaration.opening-parenthesis.mox</string>
+				</dict>
+				<key>4</key>
+				<dict>
+					<key>name</key>
+					<string>private-method.declaration.closing-parenthesis.mox</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>^(Function|Method|Macro)\s+([a-zA-Z0-9+){}\/\\\[\],_\-=:;!@#$%^&*|,.<>?]*)\s*(\().*(\))</string>
+			<key>name</key>
+			<string>private-method.declaration.mox</string>
+		</dict>
+
+(=\s+|\+=\s+|&=\s+|==\s+|\+==\s+|&==\s+|==@\s+|=@\s+|@\s+|\[\s+|\[!\]|\[#\]|\[\$\]|\[&\]|\[\+\]|\[=\]|\[\+=\]|\[&=\]|\[==\]|\[\+==\]|\[==@\]|\[=@\]|\[&==\])|\[A\]|\[AccKey\]|\[Ajax\]|\[AnyRecError\]|\[CountIf\]|\[Custom\]|\[D\]|\[DatePicker\]|\[DateTime\]|\[Date\]|\[End|\[Ensure\]|\[FieldList\]|\[Footer\]|\[Header\]|\[HtmlOutput\]|\[If\s+|\[If\]|If\]|\[L\]|\[Markdown\]|\[MaxLen\]|\[MHtml\]|\[MText\]|\[Max\]|\[Me\]|\[Min\]|\[New\]|\[Notify\]|\[Placeholder\]|\[Pull\]|\[R\]|\[Raw\]|\[Reset\]|\[Score\]|\[SearchFieldList\]|\[SearchSort\]|\[Sort\]|\[State\]|\[TQFieldList\]|\[TQFldCount\]|\[TQMessage\]|\[TQName\]|\[TQRecCount\]|\[TQResult\]|\[Temp\]|\[Time\]|\[Update\]|\[WQFieldList\]|\[WQFldCount\]|\[WQMessage\]|\[WQName\]|\[WQRecCount\]|\[WQResult\]|\[_#\]|\[_\$\]|\[_DateTime\]|\[_Date\]|\[_Time\]|\[\|\]|\]|\|
+		
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>private-method.declartion.close.mox</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>^End\s+(Function|Method|Macro)</string>
+			<key>name</key>
+			<string>private-method.declaration.close.mox</string>
+		</dict>

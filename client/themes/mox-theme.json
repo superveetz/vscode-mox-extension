@@ -1,0 +1,73 @@
+{
+	"name": "mox-theme",
+	"type": "light",
+	"colors": {
+		"editor.background": "#FFFFFF",
+		"editor.foreground": "#000000"
+	},
+	"tokenColors": [
+		{
+			"settings": {
+				"foreground": "#000000",
+				"background": "#FFFFFF"
+			}
+		},
+		{
+			"name": "Red",
+			"scope": [
+				"database-functions.colors.mox"
+			],
+			"settings": {
+				"foreground": "#E20000"
+			}
+		},
+		{
+			"name": "Gold",
+			"scope": [
+				"operators.colors.mox"
+			],
+			"settings": {
+				"foreground": "#FF8000"
+			}
+		},
+		{
+			"name": "Blue",
+			"scope": [
+				"keywords.colors.mox",
+				"attributes.colors.mox",
+				"top-query-functions.colors.mox"
+			],
+			"settings": {
+				"foreground": "#0000C8"
+			}
+		},
+		{
+			"name": "White",
+			"scope": [
+				"white"
+			],
+			"settings": {
+				"foreground": "#FFFFFF"
+			}
+		},
+		{
+			"name": "Green",
+			"scope": [
+				"comments.colors.mox"
+			],
+			"settings": {
+				"foreground": "#008080"
+			}
+		},
+		{
+			"name": "Brown",
+			"scope": [
+				"work-query-functions.colors.mox",
+				"built-in-variables.colors.mox"
+			],
+			"settings": {
+				"foreground": "#804040"
+			}
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+    "comments": {
+        "lineComment": "'",
+        "blockComment": [ "Rem", "EndRem" ]
+    },
+    "brackets": [
+        ["(", ")"]
+    ],
+    "autoClosingPairs": [
+        { "open": "(", "close": ")" }
+    ],
+    "surroundingPairs": [
+        ["(", ")"]
+    ]
+ }
