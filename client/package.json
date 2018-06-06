@@ -7,7 +7,7 @@
 	"publisher": "vscode",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Microsoft/vscode-extension-samples"
+		"url": "https://github.com/superveetz/vscode-mox-extension"
 	},
 	"engines": {
 		"vscode": "^1.22.0"
@@ -24,7 +24,9 @@
 			{
 				"id": "mox",
 				"configuration": "./language-configuration.json",
-				"extensions": [".mox"]
+				"extensions": [
+					".mox"
+				]
 			}
 		],
 		"grammars": [
@@ -34,15 +36,14 @@
 				"path": "./syntaxes/mox.tmLanguage"
 			}
 		],
-        "themes": [
-            {
-                "label": "mox-theme",
-                "uiTheme": "vs-dark",
-                "path": "./themes/mox-theme.json"
-            }
-        ],
-		"configuration": {
-		}
+		"themes": [
+			{
+				"label": "mox-theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/mox-theme.json"
+			}
+		],
+		"configuration": {}
 	},
 	"scripts": {
 		"vscode:prepublish": "tsc -p ./",

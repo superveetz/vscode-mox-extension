@@ -42,18 +42,19 @@
 			}
 		},
 		{
-			"name": "White",
+			"name": "Grey",
 			"scope": [
-				"white"
+				"extra.inside-double-quotes.colors.mox"
 			],
 			"settings": {
-				"foreground": "#FFFFFF"
+				"foreground": "#444444"
 			}
 		},
 		{
 			"name": "Green",
 			"scope": [
-				"comments.colors.mox"
+				"comments.block.colors.mox",
+				"comments.line.colors.mox"
 			],
 			"settings": {
 				"foreground": "#008080"

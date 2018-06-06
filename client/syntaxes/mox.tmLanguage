@@ -37,13 +37,41 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>comments.colors.mox</string>
+					<string>comments.block.colors.mox</string>
 				</dict>
 			</dict>
 			<key>match</key>
 			<string>(Rem|EndRem)\s+</string>
 			<key>name</key>
-			<string>comments.colors.mox</string>
+			<string>comments.block.colors.mox</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>comments.line.colors.mox</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>(?!.*".*)'.*</string>
+			<key>name</key>
+			<string>comments.line.colors.mox</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>extra.double-quotes.colors.mox</string>
+				</dict>
+			</dict>
+			<key>match</key>
+			<string>"(.*?)"</string>
+			<key>name</key>
+			<string>extra.inside-double-quotes.colors.mox</string>
 		</dict>
 		<dict>
 			<key>captures</key>
