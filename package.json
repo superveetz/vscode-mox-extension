@@ -3,7 +3,7 @@
 	"description": "A language server example",
 	"author": "Microsoft Corporation",
 	"license": "MIT",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"publisher": "Alex Di Vito",
 	"repository": {
 		"type": "git",
